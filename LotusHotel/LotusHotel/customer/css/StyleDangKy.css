@@ -1,0 +1,78 @@
+*{
+    padding :0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-image: url("../images/background.jpg") ;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.box-register{
+    width:400px;
+    border: 2px solid white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(5px);
+    border-radius:5px ;
+}
+.heading-register{
+    font-size: 30px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.box{
+    width:300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-bottom:2px solid white ;
+}
+.container-i{
+    display: flex;
+}
+.input{
+    width: 270px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.box-error{
+    border: none;
+}
+.box-button-register{
+    border: none;
+    margin-bottom: 20px;
+    position: relative;
+    width: 300px;
+    margin-left: 50px;
+    height: 50px;
+}
+.input-button{
+    position: absolute;
+    width: 30%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom:2px solid white ;
+}
+.return-login > p > a{
+    color: white;
+    text-decoration: none;
+}
+
+.return-login > p > a:hover{
+    color: silver;
+}
+
+.row-return-login{
+    align-items: center;
+    text-align: center;
+}
